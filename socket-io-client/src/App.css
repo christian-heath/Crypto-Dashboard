@@ -1,0 +1,75 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loadingSpinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.css-lderj6-style {
+    border: 6px solid #6197fb !important;
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.css-g4io12-style {
+    border: 6px solid #6197fb !important;
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.coin-symbol {
+    text-transform: uppercase;
+}
+
+.positive {
+    color: #a4cb66;
+}
+
+.negative {
+    color: #e55161;
+}

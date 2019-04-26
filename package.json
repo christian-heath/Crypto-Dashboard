@@ -1,0 +1,11 @@
+{
+  "name": "crypto-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "coingecko-api": "^1.0.3",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
